@@ -10,7 +10,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="css/style.css" type="text/html">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
 </head>
@@ -145,6 +145,27 @@
 
     </div>
 
+    </div>
+
+    <div id="results-modal" class="modal fade" role="dialog" style="display: none;">
+      <div class="modal-dialog">
+  
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">×</button>
+            <h2 class="modal-title"><strong>Best Match</strong></h2>
+          </div>
+          <div class="modal-body">
+            <h2 id="match-name">Jacob Deming</h2>
+            <img id="match-img" src="https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+  
+      </div>
     </div>
     
     <footer class="footer">

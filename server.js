@@ -11,7 +11,7 @@ var PORT = process.env.PORT || 8081;
 //sets up the express app to handle the data parsing 
 app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
-app.use('/css', express.static(path.join(__dirname, "../css")));
+app.use('/css', express.static(path.join(__dirname + "app/css")));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
