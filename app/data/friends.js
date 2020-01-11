@@ -1,5 +1,5 @@
 // Data structure that will store the friends data
-var friendsArray = [
+var friends = [
 	{
 		name: 'Johnny',
 		photo: 'https://vignette.wikia.nocookie.net/schitts-creek/images/2/2a/Johnny-s5.jpg',
@@ -162,4 +162,4 @@ var friendsArray = [
 	}
 ];
 
-module.exports = friendsArray;
+module.exports = friends;
